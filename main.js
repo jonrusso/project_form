@@ -1,6 +1,5 @@
 // 1. Pegar o formulário e os inputs para o JS
 const enviarForm = document.getElementById('form');
-const inputsObrigatorios = document.querySelectorAll('.input-obrigatorio');
 // 2. Criar o método de evento para o formulário && envio com prevenção de double-click
 enviarForm.addEventListener('submit', function (event) {
   event.preventDefault();
