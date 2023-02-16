@@ -35,6 +35,9 @@ This project was developed with:
   2. <strong>JavaScript</strong>:
   - I've learned several different new ways of thinking about this project, even if it looks simple and is a completely basic challenge to understand and solve. But I really thriving in practice and leveling my understanding multiple times more in JavaScript after concluded this one.
 
-  - My steps to accheive the logical solution for this was:
-  - Create their main variables to getElementsById from my form and 
+  - My steps to achieve the logical solution for this was:
+  - Create the main variable to getElementsById from my form.
+  - Create an event method of submit and prevent of double-checking of the submit input or button.
+  - Collecting the value from id of each input. I've found another ways to simplify this but I'll keep it simple according to my needs.
+  - If all fields are filled, reset the form and shown the popup window of confirmation.
 ---
