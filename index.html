@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="variables.css" />
+
+    <title>Formulário</title>
+  </head>
+  <body>
+    <main class="content">
+      <header class="header">
+        <h1>
+          FICOU COM <span>DÚVIDA?</span> NOS MANDE UMA <span>MENSAGEM!</span>
+        </h1>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </header>
+      <form id="form">
+        <input
+          type="text"
+          class="input-obrigatorio"
+          name="name"
+          id="name"
+          placeholder="Nome completo*"
+          required
+        />
+        <input
+          type="email"
+          class="input-obrigatorio"
+          name="email"
+          id="email"
+          placeholder="Email*"
+          required
+        />
+        <input
+          type="tel"
+          class="input-obrigatorio"
+          name="tel"
+          id="tel"
+          placeholder="Telefone*"
+          required
+        />
+        <textarea
+          id="text"
+          class="input-obrigatorio"
+          name="text"
+          rows="5"
+          cols="40"
+          placeholder="Mensagem*"
+          required
+        ></textarea class="input-obrigatorio">
+        <p>campos obrigatórios*</p>
+        <input class="submit" type="submit"  value="Enviar" />
+        <input class="reset" type="reset" value="Redefinir" />
+      </form>
+      <!-- popup only will be shown when the user clicks submit with all the required fields -->
+      <div class="popup-confirmacao" id="popup-confirmacao">
+        <p>As informações foram enviadas com sucesso!</p>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
